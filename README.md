@@ -3,7 +3,7 @@ RUN EXPERIMENT:
 - experiment (single task).ipynb
 - experiment (multi-task).ipynb
 
-The only difference between the two is that, in the multi-task version, the model also classifies the verbs into regular or irregular.
+The only difference between the two is that, in the multi-task version, the model is also trained on an auxiliary task to classify the verbs into regular or irregular.
 
 At the top of the notebook, hyperparameters can be adjusted. You can also indicate whether you want to train on type/token frequency, 
 and whether you want to do experiment 1, 2, or both (as referred to in my thesis). After that, you can just 'run all'. 
